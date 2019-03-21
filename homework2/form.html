@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Main Page</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>For rent a car</h1>
+        <form method="POST" action="https://formspree.io/olehslobodyak988@gmail.com">
+            <h2>Price List</h2>
+            <table border="1">
+                <tr>
+                    <th>Koenigsegg</th>
+                    <td>400 000$</td>
+                </tr>
+                <tr>
+                    <th>Bugatti</th>
+                    <td>780 000$</td>
+                </tr>
+                <tr>
+                    <th>Pagani</th>
+                    <td>620 000$</td>
+                </tr>
+                <tr>
+                    <th>Lamborghini</th>
+                    <td>210 000$</td>
+                </tr>
+                <tr>
+                    <th>Ford</th>
+                    <td>150 000$</td>
+                </tr>
+                <tr>
+                    <th>Nissan</th>
+                    <td>450 000$</td>
+                </tr>
+            </table>
+            <hr>
+            <h3>Choose a car</h3>
+            <table border="1">
+                <tr>
+                    <td>
+                        <input id="Koenigsegg" type="radio" name="car">
+                        <label for="Koenigsegg">Koenigsegg</label>
+                    </td>
+                </tr>
+            </table>
+            <table border="1">
+                <tr>
+                    <td>
+                        <input id="Bugatti" type="radio" name="car">
+                        <label for="Bugatti">Bugatti</label>
+                    </td>
+                </tr>
+            </table>
+            <table border="1">
+                <tr>
+                    <td>
+                        <input id="Pagani" type="radio" name="car">
+                        <label for="Pagani">Pagani</label>
+                    </td>
+                </tr>
+            </table>
+            <table border="1">
+                <tr>
+                    <td>
+                        <input id="Lamborghini" type="radio" name="car">
+                        <label for="Lamborghini">Lamborghini</label>
+                    </td>
+                </tr>
+            </table>
+            <table border="1">
+                <tr>
+                    <td>
+                        <input id="Ford" type="radio" name="car">
+                        <label for="Ford">Ford</label>
+                    </td>
+                </tr>
+            </table>
+            <table border="1">
+                <tr>
+                    <td>
+                        <input id="Nissan" type="radio" name="car">
+                        <label for="Nissan">Nissan</label>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <label for="firstname">First name: </label>
+            <input id="firstname" type="text" placeholder="firstname" name="client-firstname">
+            <br>
+            <br>
+            <label for="lastname">Last name: </label>
+            <input id="lastname" type="text" placeholder="lastname" name="client-lastname">
+            <br>
+            <br>
+            <label>Email: <input type="email" placeholder="email" name="client-email"> </label>
+            <input type="submit">
+        </form>
+
+    </main>
+</body>
+
+</html>
